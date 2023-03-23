@@ -77,11 +77,11 @@ Navigate to the project directory:
 bash
 Copy code
 cd reddit-etl-pipeline
-Open the main script (your_script_name.py) in your favorite text editor, and replace the placeholder values for client_id, client_secret, and user_agent with your Reddit API credentials.
+Open the main script extract.py in a text editor, and replace the placeholder values for client_id, client_secret, and user_agent with your Reddit API credentials.
 
 Run the script:
 
 bash
 Copy code
-python your_script_name.py
-This will extract data from the specified subreddit, transform it, and generate two visualizations: a bar chart of the top 10 posts by score and a pie chart showing the distribution of comments among the top 10 posts.
+python extract.py
+This will extract data from the specified subreddit, transform it, and generate two visualizations: a bar chart of the top n posts by score and a pie chart showing the distribution of comments among the top n posts.
